@@ -1,0 +1,24 @@
+{
+  "name": "cursos-visual-thinking-api",
+  "version": "1.0.0",
+  "description": "Proyecto  para consultar los datos de los Cursos de Visual Thinking, parte del code challenge del programa de Launch-X",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrisGGG/Cursos-Visual-Thinking-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrisGGG/Cursos-Visual-Thinking-API/issues"
+  },
+  "homepage": "https://github.com/GrisGGG/Cursos-Visual-Thinking-API#readme"
+}
