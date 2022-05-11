@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test" : "node ./node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/GrisGGG/Cursos-Visual-Thinking-API/issues"
   },
-  "homepage": "https://github.com/GrisGGG/Cursos-Visual-Thinking-API#readme"
+  "homepage": "https://github.com/GrisGGG/Cursos-Visual-Thinking-API#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
 }
