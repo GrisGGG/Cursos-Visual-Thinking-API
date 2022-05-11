@@ -11,4 +11,9 @@ describe("Test del archivo StudentsServices", ()=>{
         const studetsTest = StudentsServices.filterByCertification(students);
         expect(studetsTest.length).toBe(2)
     });
+    test("3) Test del método filterByCredits", ()=>{
+        const students = [{"id":1, "haveCertification": true, "credits": 100}, {"id":2, "haveCertification": true, "credits": 600}]
+        const studetsCredits = StudentsServices.filterByCredits(students);
+        expect(studetsCredits.length).toBe(1)
+    });
 });
