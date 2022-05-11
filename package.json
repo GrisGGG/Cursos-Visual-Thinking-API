@@ -22,10 +22,10 @@
     "url": "https://github.com/GrisGGG/Cursos-Visual-Thinking-API/issues"
   },
   "homepage": "https://github.com/GrisGGG/Cursos-Visual-Thinking-API#readme",
-  "devDependencies": {
-    "jest": "^28.1.0"
-  },
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.0"
   }
 }
