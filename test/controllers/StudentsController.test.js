@@ -11,4 +11,7 @@ describe("Test de StudentController", () =>{
         const studetsTest = StudentsController.getStudentsByCertifications(students);
         expect(studetsTest.length).toBe(29)
     });
+    test("3) Test del método filterByCredits", ()=>{
+        const studetsCredits = StudentsController.getStudentsByCredits(students);
+        expect(studetsCredits.length).toBe(27)});
 });
