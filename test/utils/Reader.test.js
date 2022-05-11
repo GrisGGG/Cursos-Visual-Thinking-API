@@ -1,4 +1,4 @@
-const Reader = require('./../../lib/utils/Reader');
+const Reader = require("./../../lib/utils/Reader");
 const students = Reader.readJsonFile("visualpartners.json");
 
 describe("Test de la clase Reader", () =>{
