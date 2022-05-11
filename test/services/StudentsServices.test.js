@@ -1,10 +1,14 @@
 const StudentsServices = require('./../../lib/services/StudentsServices');
-const Reader = require('./../../lib/utils/Reader');
-const students = Reader.readJsonFile("visualpartners.json");
 
 describe("Test del archivo StudentsServices", ()=>{
     test("1) Test del método listOfStudents", ()=>{
+        const students = [{"id":1, "haveCertification": true}, {"id":2, "haveCertification": false}]
         const studetsTest = StudentsServices.listOfStudents(students);
-        expect(studetsTest.length).toBe(51)
+        expect(studetsTest.length).toBe(2)
+    });
+    test("2) Test del método filterByCertification", ()=>{
+        const students = [{"id":1, "haveCertification": true}, {"id":2, "haveCertification": true}]
+        const studetsTest = StudentsServices.filterByCertification(students);
+        expect(studetsTest.length).toBe(2)
     });
 });
