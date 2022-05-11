@@ -7,4 +7,8 @@ describe("Test de StudentController", () =>{
         const studetsTest = StudentsController.getAllStudents(students);
         expect(studetsTest.length).toBe(51);
     }) 
+    test("2) Test del método getStudentsCertifications", ()=>{
+        const studetsTest = StudentsController.getStudentsByCertifications(students);
+        expect(studetsTest.length).toBe(29)
+    });
 });
